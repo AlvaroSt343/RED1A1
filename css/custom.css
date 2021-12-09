@@ -1,0 +1,71 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+.nav-style {
+  background: #ffffff;
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.25);
+}
+
+.nav-enlace {
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+.sesion-btn {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: linear-gradient(90deg, #e43d22 0%, #e65a1f 100%);
+  border: none;
+  border-radius: 40px;
+  padding: 14px 18px 14px 18px;
+  text-decoration: none;
+}
+.sesion-btn:hover {
+  color: white;
+}
+
+.purple-nav {
+  background: #7149bc;
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 0px 34px;
+  width: 50%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  padding: 14px;
+}
+.search-input {
+  background: #ffffff;
+  border: 3px solid #7149bc;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 30vw;
+  padding-left: 15px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  outline: none;
+}
+.search-btn {
+  background: #e9e9e9;
+  border: 3px solid #7149bc;
+  border-radius: 0px 15px 15px 0px;
+  padding: 4px 23px 4px 23px;
+  outline: none;
+}
