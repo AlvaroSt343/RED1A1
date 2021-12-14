@@ -1,0 +1,35 @@
+.nosotros-card {
+  background: #f6f8fa;
+  border-radius: 9px;
+  padding: 41px;
+}
+.nosotros-card-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 32px;
+  color: #000000;
+}
+.nosotros-card-content {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(29, 29, 36, 0.75);
+}
+
+
+.nosotros-card-2 {
+  padding: 5px 41px 5px 41px;
+}
+.nosotros-card-title-2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 32px;
+  color: rgba(29, 29, 36, 0.75);
+}

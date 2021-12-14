@@ -45,13 +45,13 @@ footer.innerHTML =
                         Secciones
                     </h5>
                     <p class="">
-                        <a href="#!" class="footer-link">Nosotros</a>
+                        <a href="nosotros.html" class="footer-link">Nosotros</a>
                     </p>
                     <p>
-                        <a href="#!" class="footer-link">Paquetes</a>
+                        <a href="paquetes.html" class="footer-link">Paquetes</a>
                     </p>
                     <p>
-                        <a href="#!" class="footer-link">Contáctanos</a>
+                        <a href="contacto.html" class="footer-link">Contáctanos</a>
                     </p>
                     <p>
                         <a href="#!" class="footer-link">Registro</a>
