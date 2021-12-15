@@ -2,7 +2,7 @@ const whitebar = document.querySelector("#whitebar");
 whitebar.innerHTML = 
 `
     <div class="container">
-        <a class="navbar-brand" href="#"><img src="./images/logos/red1a1-color.png" alt=""></a>
+        <a class="navbar-brand" href="index.html"><img src="./images/logos/red1a1-color.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

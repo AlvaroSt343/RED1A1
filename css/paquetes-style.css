@@ -132,3 +132,18 @@ table {
     font-size: 19px;
   }
 }
+@media (max-width: 752px) {
+  .section-2{
+    margin-top: 120px;
+  }
+}
+@media (max-width: 420px) {
+  .section-2{
+    margin-top: 140px;
+  }
+}
+@media (max-width: 315px) {
+  .section-2{
+    margin-top: 170px;
+  }
+}
