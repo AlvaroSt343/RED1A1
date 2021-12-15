@@ -92,8 +92,8 @@
   position: absolute;
   right: 0;
   padding: 18px;
-  text-align: center;
 }
+ 
 
 .purple-links {
   text-decoration: none;
@@ -112,8 +112,8 @@
 }
 
 .purple-img-link {
-  position: absolute;
-  transform: translateY(-6px);
+  position: relative;
+  
 }
 
 /*------------------------------------------------------*/
