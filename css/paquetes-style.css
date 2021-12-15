@@ -3,6 +3,7 @@
   box-sizing: border-box;
   border-radius: 7px;
   padding: 33px 25px 33px 25px;
+  transition: 300ms;
 }
 .paquetes-card-title {
   font-family: "Open Sans";
@@ -12,6 +13,12 @@
   line-height: 76px;
   color: #000000;
 }
+.paquetes-card:hover {
+  box-shadow: 0px 6px 14px 0px rgba(0, 0, 0, 0.45);
+  transform: translateY(-10px);
+  transition: 200ms;
+}
+
 ul {
   list-style: none;
 }
@@ -39,4 +46,30 @@ li {
   font-weight: 600;
   font-size: 28px;
   color: #13a407;
+}
+.paquetes-card-precio-2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  color: #13a407;
+  text-align: end;
+}
+table {
+  width: 100%;
+}
+.btn-contratar {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 21px;
+  color: #ffffff;
+  background: linear-gradient(90deg, #e43d22 0%, #e65a1f 100%);
+  border-radius: 40px;
+  text-decoration: none;
+  padding: 15px 41px 15px 41px;
+}
+.btn-contratar:hover {
+  color: #7149bc;
 }
