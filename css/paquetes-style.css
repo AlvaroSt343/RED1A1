@@ -4,7 +4,16 @@
   border-radius: 7px;
   padding: 33px 25px 33px 25px;
   transition: 300ms;
+  height: 550px;
+  position: relative;
 }
+.paquetes-card:hover {
+  box-shadow: 0px 6px 14px 0px 
+    rgba(0, 0, 0, 0.45);
+  transform: translateY(-10px);
+  transition: 200ms;
+}
+
 .paquetes-card-title {
   font-family: "Open Sans";
   font-style: normal;
@@ -12,11 +21,6 @@
   font-size: 28px;
   line-height: 76px;
   color: #000000;
-}
-.paquetes-card:hover {
-  box-shadow: 0px 6px 14px 0px rgba(0, 0, 0, 0.45);
-  transform: translateY(-10px);
-  transition: 200ms;
 }
 
 ul {
@@ -63,13 +67,68 @@ table {
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
-  line-height: 21px;
   color: #ffffff;
-  background: linear-gradient(90deg, #e43d22 0%, #e65a1f 100%);
+  background: linear-gradient(
+    90deg, 
+    #e43d22 0%, 
+    #e65a1f 100%);
   border-radius: 40px;
   text-decoration: none;
   padding: 15px 41px 15px 41px;
+  border: none;
+  outline: none;
 }
 .btn-contratar:hover {
-  color: #7149bc;
+  background: rgb(100, 3, 171);
+  background: linear-gradient(
+    90deg,
+    rgba(100, 3, 171, 1) 0%,
+    rgba(204, 67, 255, 1) 100%
+  );
+}
+
+
+
+
+
+.ajuste-btn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -25px);
+}
+
+
+
+@media (max-width: 767px) {
+  .paquetes-card {
+    height: auto;
+  }
+  .ajuste-btn {
+    position: relative;
+    transform: translate(-50%, 0px);
+  }
+}
+
+@media (max-width: 1399px) {
+  .paquetes-card-precio-2 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1199px) {
+  li {
+    font-size: 19px;
+  }
+  .paquetes-card-precio-2 {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 991px) {
+  .paquetes-card-precio-2 {
+    font-size: 19px;
+  }
+  li {
+    font-size: 19px;
+  }
 }
