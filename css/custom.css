@@ -10,7 +10,18 @@
   background: #ffffff;
   box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.25);
 }
-
+ul {
+  list-style: none;
+}
+ul li::before {
+  font-size: 25px;
+  content: "\2022";
+  color: #7149bc;
+  font-weight: bold;
+  display: inline-block;
+  width: 0.5em;
+  margin-left: -1em;
+}
 .nav-enlace {
   text-decoration: none;
   font-family: "Open Sans";
@@ -89,7 +100,7 @@
   box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.25);
   width: 100%;
   height: auto;
-  position: absolute;
+  position: relative;
   right: 0;
   padding: 18px;
 }
@@ -319,6 +330,9 @@
 .mb-extend {
   margin-bottom: 100px;
 }
+
+
+
 
 @media (max-width: 767px) {
   .footer-link {
